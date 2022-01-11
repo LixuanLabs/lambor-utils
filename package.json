@@ -1,0 +1,23 @@
+{
+  "name": "lambor-utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:l2xBrain/lambor-utils.git",
+  "author": "alex <geekknight@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -fr lib & taskr lamborHelpers"
+  },
+  "taskr": {
+    "requires": [
+      "./taskfile-babel.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "node-notifier": "^10.0.0",
+    "taskr": "^1.1.0"
+  }
+}

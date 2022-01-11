@@ -3,7 +3,7 @@ export default function({ types: t }) {
       visitor: {
         ImportDeclaration(path) {
           let source = path.node.source.value;
-          if (source !== 'lambor-loadable') return;
+          if (source !== 'lambor-utils/loadable') return;
   
           let defaultSpecifier = path.get('specifiers').find(specifier => {
             return specifier.isImportDefaultSpecifier();

@@ -98,10 +98,6 @@ function render(loaded, props) {
 }
 
 function createLoadableComponent(loadFn, options) {
-  if (!options.loading) {
-    throw new Error("react-loadable requires a `loading` component");
-  }
-
   let opts = Object.assign(
     {
       loader: null,

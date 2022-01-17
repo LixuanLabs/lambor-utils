@@ -1,6 +1,6 @@
 {
   "name": "lambor-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "repository": "git@github.com:l2xBrain/lambor-utils.git",
   "author": "alex <geekknight@163.com>",
